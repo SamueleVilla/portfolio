@@ -9,7 +9,7 @@ import { HiDownload } from 'react-icons/hi';
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-2-[50rem] text-center scroll-mt-[100rem] sm:mb-0">
+    <section className="mb-28 max-w-[50rem] text-center scroll-mt-[100rem] sm:mb-0">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -45,19 +45,19 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I am Samuele</span>. I am
-        <span className="font-bold"> Junior Developer</span> and
-        <span className="font-bold"> Computer Science student</span>. I enjoy
+        <span className="font-bold">Hello, I am Samuele</span>. I am{' '}
+        <span className="font-bold">Junior Developer</span> and{' '}
+        <span className="font-bold">Computer Science student</span>. I enjoy
         building
-        <span className="italic"> sites & apps</span> in my free time. My focus
-        is <span className="underline">NodeJS</span> and
-        <span className="underline"> Java</span>.
-      </motion.p>
+        <span className="italic"> sites & apps</span>. My focus is{' '}
+        <span className="underline">NodeJS</span> and{' '}
+        <span className="underline">Java</span>.
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row gap-4 items-center justify-center text-lg font-medium"
