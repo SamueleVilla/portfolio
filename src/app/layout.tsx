@@ -9,7 +9,7 @@ import Footer from '@/components/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
+const metadata = {
   title: 'Samuele Villa | Portfolio',
   description: 'Samuele Villa personal portfolio',
 };
