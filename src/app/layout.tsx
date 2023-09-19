@@ -24,6 +24,9 @@ export default function RootLayout({
       lang="en"
       className="!scroll-smooth"
     >
+      <head>
+        <title>Samuele Villa | Portfolio</title>
+      </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36`}
       >
