@@ -22,19 +22,18 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         After I finished the secondary school, I enrolled in a coding bootcamp
-        and meanwhile begun a university course in computer science in Milano. I
-        always pursued my coding passion. My favorite part of programming are
-        the problem-solving challenges. I really enjoy the feeling of the final
-        solution of the challenge. My core stack is mostly backend technologies
-        as Java and Node but recently I started some front-end projects with
-        React (Next.js) which I liked to learn. I am also familiar with
-        Typescript and Relational DBMS. I am always looking for different kind
-        of projects and technologies. Currently I can provide IT consultancy for
+        and meanwhile I begun an university course in computer science in Milano. I have
+        pursued my passion for coding and IT world since I was a child. My favorite part of programming are
+        the problem-solving challenges because I enjoy the feeling of figuring out the final
+        solution. My core stack is based mostly on back-end technologies
+        as Java and Node but recently, I have been interested in full-stack development with
+        Next.js framework as well. I am also familiar with
+        Typescript, Relational DBMS and Docker. However, I can provide IT consultancy for
         small projects and tutoring in computer science and mathematics.
       </p>
       <p>
-        When I am not coding, I enjoy playing video games, watching movies,
-        training at the gym, and traveling. I enjoy even documenting on new
+        When I am not coding, I enjoy playing video games, watching movies
+        training at the gym, and traveling. I enjoy even documenting on different
         things as well. I am currently learning about History and Politics.
       </p>
     </motion.section>

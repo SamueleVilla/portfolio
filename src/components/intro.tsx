@@ -59,11 +59,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I am Samuele</span>. I am{' '}
+        <span className="font-bold">Hello, I'm Samuele</span>. I'm an italian{' '}
         <span className="font-bold">Junior Developer</span> and{' '}
         <span className="font-bold">Computer Science student</span>. I enjoy
         building
-        <span className="italic"> sites & apps</span>. My focus is{' '}
+        <span className="italic"> sites & apps</span>. My focuses are{' '}
         <span className="underline">NodeJS</span> and{' '}
         <span className="underline">Java</span>.
       </motion.h1>
@@ -90,8 +90,9 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/cv-samuele-villa.pdf"
+          href="https://samuele-portfolio-images.s3.eu-central-1.amazonaws.com/cv/cv-samuele-villa.pdf"
           download
+          target="_blank"
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full
           outline-none focus:scale-110 hover:scale-110 active:scale-105 transition
           borderBlack"
