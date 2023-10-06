@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://samuele-portfolio-images.s3.eu-central-1.amazonaws.com/IMG_2169.JPG"
+              src="https://samuele-portfolio-images.s3.eu-central-1.amazonaws.com/img/IMG_2169.JPG"
               alt="Samuiele portrait"
               width="192"
               height="192"
