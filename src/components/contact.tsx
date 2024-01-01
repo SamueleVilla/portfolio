@@ -35,7 +35,7 @@ export default function Contact() {
         >
           samuele.villa@outlook.com
         </a>{' '}
-        or though this form.
+        or through this form.
       </p>
       <form
         className="mt-10 flex flex-col"
