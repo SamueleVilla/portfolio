@@ -1,10 +1,13 @@
 'use client';
 
-import Header from '@/components/header';
 import './globals.css';
-import { Inter } from 'next/font/google';
-import ActiveSectionContextProvider from '@/context/active-section-context';
+import React from 'react';
 import { Toaster } from 'react-hot-toast';
+
+import { Inter } from 'next/font/google';
+
+import Header from '@/components/header';
+import ActiveSectionContextProvider from '@/context/active-section-context';
 import Footer from '@/components/footer';
 
 const inter = Inter({ subsets: ['latin'] });
