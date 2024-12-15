@@ -1,14 +1,12 @@
-import Header from '@/components/header';
 import './globals.css';
 import React from 'react';
+import { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 
-import { Inter } from 'next/font/google';
-
-import Header from '@/components/header';
 import ActiveSectionContextProvider from '@/context/active-section-context';
+import Header from '@/components/header';
 import Footer from '@/components/footer';
-import { Metadata } from 'next';
 
 const inter = Inter({ subsets: ['latin'] });
 
