@@ -1,18 +1,16 @@
-'use client';
-
 import './globals.css';
 import React from 'react';
+import { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 
-import { Inter } from 'next/font/google';
-
-import Header from '@/components/header';
 import ActiveSectionContextProvider from '@/context/active-section-context';
+import Header from '@/components/header';
 import Footer from '@/components/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const metadata = {
+export const metadata: Metadata = {
   title: 'Samuele Villa | Portfolio',
   description: 'Samuele Villa personal portfolio',
 };
@@ -27,9 +25,6 @@ export default function RootLayout({
       lang="en"
       className="!scroll-smooth"
     >
-      <head>
-        <title>Samuele Villa | Portfolio</title>
-      </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36`}
       >
